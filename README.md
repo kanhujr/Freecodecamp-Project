@@ -19,7 +19,7 @@ CSS3: For styling the form, including background images, form layout, and button
 How to Use
 Clone the repository:
 //Copy code
-git clone
+git clone:https://github.com/kanhujr/Freecodecamp-Project.git
 Open index.html: Once cloned, open the index.html file in a browser to view the survey form.
 Edit the Styles: If you want to change the appearance of the form, edit the styles.css file.
 
