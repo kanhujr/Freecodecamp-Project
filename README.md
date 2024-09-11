@@ -2,6 +2,13 @@
 
 This project is a Survey Form created as part of the FreeCodeCamp curriculum. The goal of this project is to gather data about users' food preferences, dietary restrictions, and eating habits in an elegant and user-friendly form.
 
+## freeCodeCamp Responsive Web Design Project
+
+This project is part of the freeCodeCamp curriculum and was created to fulfill the requirements for the **Survey Form** project. 
+
+For more information, visit [freeCodeCamp](https://www.freecodecamp.org/).
+
+
 Project Overview
 
 The project consists of a simple HTML form and a stylish CSS layout. The form captures personal information, dietary preferences, dining habits, and additional feedback.
