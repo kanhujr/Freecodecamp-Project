@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div id="container">
+  <header class="main-header">
+  <h1 id="title">Food Preferences and Habits Survey</h1>
+<p id="description">Thank you for participating in our food survey. Your feedback helps us understand your preferences and habits better.</p>
+</header>
+<fieldset class="content">
+  <form id="survey-form">
+  <h2>Personal Information</h2>
+<label for="name-label">Full Name </label><br>
+<input type="text" id="name-label" placeholder="Enter your name" required> <br><br>
+
+<label for="email-label">Email Address</label><br>
+<input type="email" id="email-label" placeholder="Enter your email" required><br><br>
+
+<label for="number-label">Age </label><br>
+<input id="number-label" type="number" min="1" max="200" placeholder="Age" ><br><br>
+
+
+<h2>Dietary Preferences</h2>
+<label for="dietary">Do you have any dietary restrictions?</label><br>
+<input type="radio" id="dietary" name="diet1" value="yes"> Yes<br>
+<input type="radio" id="dietary" name="diet1" value="no"> No<br><br>
+
+<label for="dropdown">If yes, please specify: </label><br>
+<select id="dropdown" name="diet">
+ <option value="Vegetarian">Vegetarian</option>
+ <option value="Vegan">Vegan</option>
+ <option value="Gluten-free">Gluten-free</option>
+ <option value="Dairy-free">Dairy-free</option>
+ <option value="Nut-free">Nut-free</option>
+ <option value="Other">Other</option>
+</select><br><br>
+
+<h2>Dining Preference</h2>
+<label for="dining">How often do you order online?</label><br>
+<input type="radio" id="dining" name="eating" value="Never"> Never<br>
+<input type="radio" id="dining" name="eating" value="1-2 times a week"> 1-2 times a week<br>
+<input type="radio" id="dining" name="eating" value="1-2 times a month"> 1-2 times a month<br>
+<input type="radio" id="dining" name="eating" value="More than 3 times a week" > More than 3 times a week<br><br>
+
+<label for="favorite_restaurant">What is your favorite type of restaurant</label><br>
+<select id="favorite_restaurant" name="favorite_restaurant">
+<option value="Fast Food">Fast Food</option>
+<option value="Casual Dining">Casual Dining</option>
+<option value="Fine Dining">Fine Dining</option>
+<option value="Cafes">Cafes</option>
+<option value="Buffets">Buffets</option>
+<option value="Food Truck">Food Truck</option>
+<option value="Other">Other</option>
+
+</select><br><br>
+
+<h2>Food Preference</h2>
+<label for="consume">How often do you consume the following? (Check all that apply)</label><br>
+<input type="checkbox" id="fruits" value="fruits" name="consume">
+<label for="Fruits_consume">Fruits</label>
+<select id="Fruits_consume" name="fruits1">
+  <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Occasionaly">Occasionally</option>
+  <option value="Never">Never</option>
+  </select><br>
+
+<input type="checkbox"  id="vegetables" value="vegetables" name="consume">
+<label for="vegetables_consume">Vegetables</labe>
+<select id="vegetables_consume" name="veg1">
+ <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Occasionaly">Occasionally</option>
+  <option value="Never">Never</option>
+  </select><br>
+
+  <input type="checkbox" id="seafood" name="consume"
+  value="seafood">
+  <label for="seafood_consume">Seafood</label>
+  <select id="seafood_consume" name="seafood1">
+     <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Occasionaly">Occasionally</option>
+  <option value="Never">Never</option>
+  </select>
+  <br>
+
+  <input type="checkbox" id="dairy" name="consume"
+  value="dairy">
+  <label for="dairy_consume">Dairy</label>
+  <select id="dairy_consume" name="dairy1">
+     <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Occasionaly">Occasionally</option>
+  <option value="Never">Never</option>
+  </select>
+  <br>
+
+  <input type="checkbox" id="grains" name="consume"
+  value="grains">
+  <label for="grains_consume">Grains</label>
+  <select id="grains_consume" name="grains1">
+     <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Occasionaly">Occasionally</option>
+  <option value="Never">Never</option>
+  </select>
+  <br><br>
+
+
+<h2>Additional Feedback</h2>
+<label for="feedback">Any Comments or Suggestions?</label><br>
+<textarea id="feedback" name="comment" rows="4" cols="50" placeholder="Enter your comment here....."></textarea><br><br>
+
+<button id="submit" type="submit">Submit</button>
+
+</form>
+</fieldset>
+</div>
+
+  </body>
+</html>
